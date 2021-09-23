@@ -34,9 +34,9 @@ while True:
     if event.type == pygame.KEYDOWN:
          
       if event.key == pygame.K_UP:
-        change=3
+        change=6
       if event.key==pygame.K_DOWN:
-          change=-3
+          change=-6
      
   enemy.x=enemy.x + xvel
   enemy.y=enemy.y + yvel 
